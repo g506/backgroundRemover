@@ -14,5 +14,16 @@ const removeBackground = createSlice({
     },
 });
 
+const changeBackground = createSlice({
+    name: 'changeBg',
+    initialState,
+    reducers: {
+        setActionChangeStatus: (state, action ) => {
+            return { ...state, bgChanged: action.payload };
+        },
+    },
+});
+
 export const { setActionStatus } = removeBackground.actions;
-export default removeBackground.reducer;
+export const { setActionChangeStatus } = changeBackground.actions;
+export default removeBackground.reducer

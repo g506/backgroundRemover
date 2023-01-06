@@ -3,6 +3,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import RemoveBackground from "./components/RemoveBackground";
+import ChangeBackground from "./components/ChangeBackground";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <div className="container py-5">
         <Header/>
           <RemoveBackground/>
+          <hr/>
+          <ChangeBackground/>
       </div>
       <Footer/>
     </div>
