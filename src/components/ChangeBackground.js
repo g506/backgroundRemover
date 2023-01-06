@@ -39,6 +39,7 @@ export default function ChangeBackground() {
         method: "POST",
         headers: {
           "X-Api-Key": "Rn1PbjhV5MbZvVahFJ7jfzoh",
+          "Allow-Control-Allow-Origin": "*",
         },
         body: formData,
       });
