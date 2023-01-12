@@ -90,7 +90,7 @@ export default function ChangeBackground() {
     formData.append("image_file", inputBlob);
     formData.append("bg_image_file", blobBg);
 
-    const response = await fetch("http://20.161.17.235:5000/changeBg", {
+    const response = await fetch("http://43.206.136.64//changeBg", {
       method: "POST",
       headers: {
         "X-Api-Key": "Rn1PbjhV5MbZvVahFJ7jfzoh",
